@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+}
+.cabeza{
+    background-color: rgba(128, 128, 128, 0.404);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    
+    
+}
+a:hover{
+    color: orange;
+}
+
+.logo{
+    margin-left: 20px;
+    display: flex;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    filter: invert(100%);
+
+
+}
+
+.logo img{
+    height: 5vh;
+    color: i;
+
+}
+.tabla{
+    margin-right: 20px;
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.foto{
+    height: 80vh;
+    background-image: url("../images/portada1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+
+h1{
+    color: white;
+}
+.foto{
+    display: flex;
+   
+
+}
+.correr{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+   
+}
+.iconos{
+    margin: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.icon img{
+    width: 10vw;
+}
+
+.ico img{
+    width: 20vw;
+    height: 20vw;
+}
+.ico img:hover{
+    width: 22vw;
+    height: 22vw;
+}
+
+
+.agua img{
+    width: 100%;
+    height: 60vw;
+   
+}
+h3{
+    margin-top: 10px;
+    text-align: center;
+}
+.dogs img{
+    width: 20vw;
+}
+footer{
+    background-color: rgb(75, 66, 66);
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.left .right{
+    width: 40%;
+}
+footer img{
+    
+    filter: invert(100%);
+    width: 5vw;
+}

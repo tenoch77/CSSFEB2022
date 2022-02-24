@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+
+background: linear-gradient(180deg, rgb(202, 103, 17) 0%, rgb(210, 224, 10) 35%, rgb(38, 0, 255) 100%);
+height: 150vh;
+}
+
+
+div{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+.green{
+    background-color: green;
+}
+.blue1{
+    background-color: blue;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+}
+.blue2{
+    background-color: blue;
+    position: absolute;
+    left: 50%;
+    top: 200px;
+}
+.yellow{
+    background-color: yellow;
+    position: fixed;
+    left: 74%;
+    top: 0%;
+    
+    
+}

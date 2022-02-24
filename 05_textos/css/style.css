@@ -1,0 +1,48 @@
+@font-face{
+    font-family: 'Shizuru';
+    src:url("../Roboto, Shizuru/Shizuru/Shizuru-Regular.ttf")
+}
+*{
+    margin: 0px;
+}
+.color{
+    color: rgb(17, 236, 65);
+}
+.f-size{
+    font-size: 40px;
+
+}
+.f-weight{
+    font-weight: lighter;
+
+}
+.f-style{
+    font-style: italic;
+    font-variant: small-caps;
+}
+.f-family{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+.f-google{
+    
+    font-family: 'Shizuru'; 
+    
+}
+
+
+a{
+    text-decoration: none;
+}
+h1 {
+    font-size: 60px;
+    color: blue;
+    text-shadow: 30px 5px 5px red;
+}
+.t-align{
+    text-align: start;
+    text-decoration:underline;
+    word-spacing: 20px;
+    letter-spacing: 3px;
+    line-height: 30px;
+   
+}

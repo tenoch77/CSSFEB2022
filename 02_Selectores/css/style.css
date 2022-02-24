@@ -1,0 +1,79 @@
+/* Tipos de selectores */
+
+
+/* Selector de tipo etiqueta */
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red ;
+}
+
+h1{
+    color: white;
+}
+/* Selector de clase */
+.fun{
+    color: yellow;
+    background-color:coral ;
+    border-radius: 50%;
+}
+/* Selector de id */
+
+#fuck{
+
+    background-color: cyan;
+
+}
+
+/* Selector Universal */
+* {
+    margin: 0;
+    /* padding: 0; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.herencia {
+    color: white;
+    border: 5px solid black;
+
+}
+.hijo{
+    background-color: darkgoldenrod;
+    width: 30px;
+    height: 30px;  
+}
+.borde{
+    border: 5px solid black;
+
+}
+span{
+    color: blue;
+    
+}
+/* Selector de atributo */
+input[type="text"] {
+    background-color: blue;
+}
+input{
+    background-color: burlywood;
+    width: 90%;
+    
+}
+#atributo{
+    background-color: blue;
+}
+/* Selectores hijos  */
+
+.seccion1 p span{
+    color: red;
+    font-weight: bold;
+}
+.seccion3, a, input {
+    border: 4px solid blue;
+}
+a {
+    color: cornflowerblue;
+}

@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+}
+div {
+  width: 200px;
+  height: 200px;
+}
+.azul {
+  background-color: blue;
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(red);
+  
+  
+}
+.central {
+  background-color: green;
+  position: relative;
+  left: 25%;
+  top: 50px;
+  border-radius: 50%;
+  
+ 
+ 
+}
+
+.azul2 {
+  background-color: blue;
+  position: relative;
+  left: 25%;
+  bottom: 20%;
+  border-radius: 50%;
+  
+}
+.rojo {
+  background-color: red;
+}
+.central2 {
+  background-color: aquamarine;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.amarillo {
+  background-color: yellow;
+
+}
+nav{
+    width: 90vw;
+    height: 100px;
+    background-color: grey;
+   position: fixed;
+   top: 30px;
+}
+p{
+    width: 90vw;
+}
+.sticky{
+    background-color: coral;
+    position: sticky;
+    top: 200px;
+    left: 300px;
+}

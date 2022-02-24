@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: lightgray;
+}
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+h3{
+    background-color: rgb(148, 143, 143);
+    width: fit-content;
+    color: white;
+}
+.first{
+    height: 5px;
+    background-color: white;
+}
+.second{
+    height: 5px;
+    background-color: black;
+}
+.uno{
+    background-color: yellow;
+    color: black;
+}
+.dos{
+    background-color: blue;
+    color: white;
+}
+.tres{
+    font-size: x-large;
+}
+.cuatro{
+    background-color: white;
+}
+.cinco{
+    background-color: green;
+    font-size: 2em;
+}
+.seis{
+    background-color: black;
+    color: yellow;
+}

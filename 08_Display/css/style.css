@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+img{
+    width: 100px;
+   
+}
+
+p{
+    display: inline;
+}
+span{
+    display: none !important;
+}
+@media (max-with: 300px){
+    span{
+        display: block !important;
+    }
+    nav{
+        display: none !important;
+    }
+    img{
+        display: block;
+    }
+}
+h1{
+    visibility: hidden;
+}
+

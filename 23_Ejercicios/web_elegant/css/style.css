@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.uno{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 60%;
+}
+.dos{
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    
+
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 40%;
+
+}
+a{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; */
+
+  
+    color: black;
+    text-decoration: none;
+}
+.consola{
+    height: 50vh;
+    background-image: url("../images/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 5vh;
+   
+}
+.consola p{
+    background-color: rgb(4, 142, 240);  
+    font-size: 10px;
+
+}
+h1{
+    margin-left: 10px;
+}
+h3{
+    color: rgb(4, 142, 240); 
+}
+.iconos{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+hr{
+    width: 98vw;
+    height: 4px;
+    
+}
+
+.iconos div{
+    width: 20vw;
+}
+.iconos img{
+    width: 100px;
+    height: 100px;
+
+}
+
+img{
+    width: 22vw;
+    height: 15vw;
+    
+    
+}
+.padre{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}

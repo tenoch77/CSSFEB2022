@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+html{
+    font-size: 10px;
+}
+.px{
+    width: 300px;
+}
+h1{
+    font-size: 2rem;
+}
+.cm{
+    width: 20cm;
+}
+.in{
+    width: 5in;
+}
+.padre{
+    width: 50%;
+    height: 200px;
+    background-color: brown;
+}
+.hijo{
+    min-width: 100px;
+    max-width: 200px;
+    width:50%;
+    height: 100px;
+    background-color: blanchedalmond;
+    align-items: center;
+}
+.padre2{
+    width: 100vw;
+    height: 30vh;
+    background-color: rgb(54, 42, 165);
+}
+.em{
+    font-size: 30px;
+    width: 5em;
+}
+
