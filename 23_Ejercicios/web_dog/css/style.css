@@ -2,7 +2,7 @@
     margin: 0;
 }
 .cabeza{
-    background-color: rgba(128, 128, 128, 0.404);
+    background-color: rgba(87, 71, 71, 0.404);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@ a:hover{
 }
 
 .logo img{
-    height: 5vh;
+    height: 8vh;
     color: i;
 
 }
@@ -79,6 +79,8 @@ h1{
 }
 .icon img{
     width: 10vw;
+    border-radius: 40%;
+    border: 1px solid black;
 }
 
 .ico img{
@@ -91,24 +93,40 @@ h1{
 }
 
 
-.agua img{
+.agua{
     width: 100%;
-    height: 60vw;
+    height: 80vw;
+    position: sticky;
+    bottom: 40vh;
+    background-image:url("../images/portada2.jpg");
+    background-size: cover;
+    background-position: center;
+
+    
    
 }
 h3{
     margin-top: 10px;
     text-align: center;
 }
+.iconos2{
+    margin: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
 .dogs img{
-    width: 20vw;
+    width: 100px;
+    height: 150px;
 }
 footer{
     background-color: rgb(75, 66, 66);
     height: 20vh;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
 }
 .left .right{
@@ -117,5 +135,6 @@ footer{
 footer img{
     
     filter: invert(100%);
-    width: 5vw;
+    width: 3vw;
+    margin: 2vw;
 }
