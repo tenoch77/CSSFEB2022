@@ -1,0 +1,54 @@
+.responsive1{
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.responsive2{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.padre{
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+   
+}
+@media (max-width: 400px) {
+    .padre{
+        flex-direction: column;
+        align-items: center;
+       
+        }
+        .responsive1{
+            background-color: blue;
+
+    }
+    
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+    .responsive2{
+        background-color: magenta; 
+}
+    }
+    
+
+@media (min-width:400px){
+    .responsive2{
+        border: 10px solid black;
+       
+    }
+}
+

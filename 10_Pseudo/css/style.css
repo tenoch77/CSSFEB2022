@@ -10,12 +10,14 @@ h1{
     background-color: red;
     border-radius: 50%;
     border: dashed 10px black ;
+    transition:2s;
     
 }
 .contenedor2 {
     height: 200px;
     width: 200px;
     background-color: rgb(255, 0, 119);
+    transition:0.5s;
 }
 
     
@@ -27,4 +29,15 @@ h1{
     }
     a:visited{
         color: green;
+    }
+   
+    a [href="https://www.youtube.com/watch?v=bMD4oUZfh5k"]:link{
+        color: yellow;
+    }
+    .pas::first-line{
+        color: gold;
+    }
+    .pas::first-letter{
+        color: blue;
+        font-size: xx-large;
     }
