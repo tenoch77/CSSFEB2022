@@ -51,6 +51,7 @@ button{
     text-align: center;
     background-color:rgb(164, 224, 224);
     height: 50vw;
+    padding-bottom: 10vh;
 }
 
 .icon{
