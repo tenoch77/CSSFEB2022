@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    background-color: navy;
+    color: white;
+    height: 5vh;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10vw;
+}
+.dog{
+    background-image: url("../images/banner_bg.png");
+ 
+    height: 80vh;
+   
+    position: sticky;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.xxx{
+    background-image: url("../images/review_bg.png");
+   
+
+    height: 80vh;
+    
+  
+    position: sticky;
+    background-position: center;
+    background-size: cover;
+}
+.girl{
+    
+    
+    display: flex;
+    
+    justify-content: space-around;
+    
+    
+}
+.logo{
+    margin-top: 30vh;
+    
+}
+.logo img{
+    height: 5vw;
+}
+.iconos{
+    
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+.iconos img{
+    width: 8vw;
+}
+.icons{
+    text-align: center;
+   
+}
+.chiquito{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+
+}
+.chiquitin{
+    text-align: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+.girl2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+footer{
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
+.boton{
+    width: 15vw;
+    height: 5vw;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 10%;
+    border: none;
+   
+}
+
+
+.b2{
+    height: 5vw;
+    background-color: cadetblue;
+    color: white;
+    width: 20vw;
+    border-radius: 35%;
+    border: none;
+}
+.red{
+
+    background-color: red;
+    color: white;
+}
+
+@media (max-width:600px){
+    .chiquito{
+        display: block;
+    }
+    .girl{
+        display: block;
+    }
+    .girl2{
+        display: block;
+    }
+}
+
