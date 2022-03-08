@@ -22,21 +22,29 @@ a{
 }
 .dog{
     background-image: url("../images/banner_bg.png");
- 
-    height: 80vh;
-   
-    position: sticky;
+    height: 50vh;
+   background-attachment: fixed;
+    top: 10px;
     background-position: center;
     background-size: cover;
 
+
+}
+span{
+    display: none;
+}
+h1{
+    padding-left: 10vw;
+    padding-top: 30vh;
 }
 
 
 .xxx{
     background-image: url("../images/review_bg.png");
+    background-attachment: fixed;
    
 
-    height: 80vh;
+    height: 50vh;
     
   
     position: sticky;
@@ -53,10 +61,18 @@ a{
     
 }
 .logo{
-    margin-top: 30vh;
+    margin-top: 10vh;
+}
+.logo2{
+    margin-top: 10vh;
+}
+
+.logo img{
+    height: 5vw;
     
 }
-.logo img{
+
+.logo2 img{
     height: 5vw;
 }
 .iconos{
@@ -82,7 +98,7 @@ a{
 .chiquitin{
     text-align: center;
     align-items: center;
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
 .girl2{
     display: flex;
@@ -94,6 +110,7 @@ footer{
     background-color: navy;
     color: white;
     text-align: center;
+    
 }
 .boton{
     width: 15vw;
@@ -103,6 +120,10 @@ footer{
     border-radius: 10%;
     border: none;
    
+}
+.botones{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -119,16 +140,69 @@ footer{
     background-color: red;
     color: white;
 }
+.material-icons{
+    visibility: hidden;
+}
+.yyy{
+    display: flex;
+}
 
-@media (max-width:600px){
+@media (max-width:550px){
+    .dog{
+        background-position: 74% center;
+        background-size: cover;
+
+    }
     .chiquito{
         display: block;
     }
     .girl{
         display: block;
+        margin-left: 30vw;
     }
     .girl2{
         display: block;
     }
-}
+    img{
+        height: 30vw;
+    }
+    .iconos{
+        display: block;
+    }
+    .tabla{
+        display: none;
 
+    }
+    span{
+        align-items: flex-end;
+    }
+    .iconos img{
+        width: 5vw;
+        height: 7vw;
+
+}
+}
+@media(max-width:700px){
+    .dog{
+        background-position: 80% center;
+        background-size: cover;
+
+    }
+    img{
+        height: 40vw;
+    
+    }
+    .logo img{
+        height: 5vw; 
+    
+    }
+    .icons img{
+        height: 5vw; 
+    
+    }
+    .chiquitin img {
+        height: 5vw; 
+    }
+
+}
+  
